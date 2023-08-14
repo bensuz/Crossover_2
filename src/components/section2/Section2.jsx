@@ -109,7 +109,7 @@ function Section2() {
                     </div>
                 </div>
                 <div className="flex justify-center relative">
-                    <img className="mt-[-9px]" src={rec} alt="" />
+                    <img className="mt-[-12px]" src={rec} alt="" />
                     <span className="absolute top-[10px]">
                         &#x003C; 3/9 &#x003E;
                     </span>

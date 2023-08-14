@@ -21,10 +21,10 @@ const SectionFour = () => {
             <div className="flex items-center justify-around gap-10">
                 <div className="bg-white w-[330px] h-[730px] shadow-[0 21px 29px] flex flex-col items-center gap-1 ">
                     <div className="flex flex-col items-center gap-1 pt-10 pb-5">
-                        <h4 className="font-[cinzel] text-[16px] text-[#353535] font-[700]">
+                        <h4 className="font-['cinzel'] text-[16px] text-[#353535] font-[700]">
                             APARTMENT{" "}
                         </h4>
-                        <h2 className="font-[cinzel] font-[700] text-[#7c4521] text-[34px]">
+                        <h2 className="font-['cinzel'] font-[700] text-[#7c4521] text-[34px]">
                             RESERVATION
                         </h2>
                     </div>
