@@ -47,7 +47,7 @@ const Room_Choose = () => {
           src={RoomNumber}
         />
 
-        <div className="flex-col absolute right-[2rem] bg-white w-[500px] h-[500px] text-center items-center border-8 border-[#fff4e1] opacity-90 top-[-5rem]">
+        <div className="flex-col absolute right-[2rem] bg-white w-[500px] h-[550px] text-center items-center border-8 border-[#fff4e1] opacity-90 top-[-5rem]">
           <div className="flex-col  w-[100%] ">
             <h2 className="font-['Cinzel'] font-[700] text-[1rem] text-[#d39507]  pt-[2rem]">
               CONVENIENVE AND LUXURY
@@ -66,7 +66,7 @@ const Room_Choose = () => {
               <img src={Roomicon3} />
             </div>
           </div>
-          <div className="flex border-[#edd9ba] border-4 justify-center ml-[20px] mr-[20px] mt-[2rem] pt-[2rem] pd-[1rem]">
+          <div className="flex border-[#edd9ba] border-4 justify-center ml-[20px] mr-[20px] mt-[2rem] pt-[2rem] pb-[2rem]  gap-[2rem] ">
             <div className="flex-col bg-[#ffffff] ">
               <p className="text-[#999999] text-[12px] font-['Roboto']">
                 Per Night
