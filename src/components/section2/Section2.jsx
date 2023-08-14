@@ -12,6 +12,7 @@ function Section2() {
       <div className="w-1/4">
         <div className="h-1/2 bg-[url('components/section2/assets/Layer_832.png')] bg-cover bg-no-repeat"></div>
         <div className=" relative h-[395px] bg-white">
+
           <div className="flex flex-col m-10 p-4 bg-white shadow-[0_15px_20px_rgba(217,149,0,0.2)] text-center absolute bottom-0">
             <div>
               <img className="m-auto pt-4" src={crone} alt="" />
