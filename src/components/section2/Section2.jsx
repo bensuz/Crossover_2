@@ -16,7 +16,7 @@ function Section2() {
             <div>
               <img className="m-auto pt-4" src={crone} alt="" />
               <h3 className="sub-title pt-4">Double Room</h3>
-              <h2 className="title">Standard</h2>
+              <h2 className="title font-['cinzel']">Standard</h2>
             </div>
             <span className="font-[gotham-book] py-10 px-4">
               Modern air-conditioned room featuring free WiFi, a flat-screen TV,
