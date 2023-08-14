@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import firstroompic from "./Assets/firstroompic.png";
 import middleroompic from "./Assets/middleroompic.png";
 import rightroompic from "./Assets/rightroompic.png";
@@ -177,25 +178,25 @@ const SectionFour = () => {
                         src={firstimg}
                         alt=""
                     />
-                    <span className="h-[45%] w-px bg-[#cc994c] shadow-lg shadow-yellow-500 bg-opacity-10"></span>
+                    <span className="h-[45%] w-1 bg-[#cc994c] shadow-lg shadow-yellow-500 bg-opacity-5"></span>
                     <img
                         src={secondimg}
                         alt=""
                         className="w-[116px] h-[122px]"
                     />
-                    <span className="h-[45%] w-px bg-[#cc994c] shadow-lg shadow-yellow-500 bg-opacity-10"></span>
+                    <span className="h-[45%] w-1 bg-[#cc994c] shadow-lg shadow-yellow-500 bg-opacity-5"></span>
                     <img
                         src={thirdimg}
                         alt=""
                         className="w-[116px] h-[122px]"
                     />
-                    <span className="h-[45%] w-px bg-[#cc994c] shadow-lg shadow-yellow-500 bg-opacity-10"></span>
+                    <span className="h-[45%] w-1 bg-[#cc994c] shadow-lg shadow-yellow-500 bg-opacity-5"></span>
                     <img
                         src={fourthimg}
                         alt=""
                         className="w-[116px] h-[122px]"
                     />
-                    <span className="h-[45%] w-px bg-[#cc994c] shadow-md shadow-yellow-500 bg-opacity-10"></span>
+                    <span className="h-[45%] w-1 bg-[#cc994c] shadow-lg shadow-yellow-500 bg-opacity-5"></span>
                     <img
                         src={fifthimg}
                         alt=""
