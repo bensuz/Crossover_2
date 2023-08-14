@@ -12,7 +12,5 @@ function App() {
       <Section2 />
       <SectionFour />
     </>
-  );
-}
 
 export default App;
