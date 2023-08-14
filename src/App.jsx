@@ -1,7 +1,14 @@
-import "./App.css";
+// import "./App.css";
+
+import SectionThree from "./components/SectionThree/SectionThree";
 
 function App() {
-    return <></>;
+    return (
+    <>
+    <SectionThree />
+    </>
+
+    );
 }
 
 export default App;
