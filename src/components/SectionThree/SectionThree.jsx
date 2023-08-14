@@ -32,9 +32,9 @@ function SectionThree() {
                         />
                     </section>
 
-                    <section className="sidebar bg-white w-[400px]">
+                    <section className="sidebar bg-white w-[400px] p-4">
                         <sidebar className="top">
-                            <div className="container-1 ">
+                            <div className="container-1 flex items-center gap-2 h-32">
                                 <div>
                                     <img
                                         src="./src/components/SectionThree/Images/Layer_526.png"
@@ -54,7 +54,7 @@ function SectionThree() {
                             </div>
                         </sidebar>
                         <div className="sidebar-bottom">
-                            <div className="container-below">
+                            <div className="container-below flex gap-2 items-center h-32">
                                 <div>
                                     <img
                                         src="./src/components/SectionThree/Images/Layer_528.png"
