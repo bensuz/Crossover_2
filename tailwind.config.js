@@ -1,9 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
+    content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+    theme: {
+        extend: {
+            fontFamily: {
+                cinzel: ["Cinzel", "serif"],
+                gothamBook: ["Gotham", "sans-serif"],
+            },
+        },
+    },
+    plugins: [],
 };

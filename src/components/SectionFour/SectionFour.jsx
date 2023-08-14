@@ -108,7 +108,7 @@ const SectionFour = () => {
                         <h4 className="font-[cinzel] text-[16px] text-[#353535] font-[700]">
                             GALLERY
                         </h4>
-                        <h2 className=" font-[cinzel] text-[#7c4521] text-[34px] font-[700]">
+                        <h2 className=" font-cinzel text-[#7c4521] text-[34px] font-[700]">
                             DISCOVER OUR HOTEL
                         </h2>
                     </div>
@@ -147,7 +147,7 @@ const SectionFour = () => {
                             </div>
                         </div>
                         <div className="flex flex-col items-center justify-center">
-                            <p className="font-[cinzel] text-[#353535] text-[30px] font-700">
+                            <p className="font-cinzel text-[#353535] text-[30px] font-700">
                                 DELUXE ROOM
                             </p>
                             <img src={dots} alt="dots" />

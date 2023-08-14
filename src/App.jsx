@@ -5,12 +5,13 @@ import Room_Choose from "./components/Room_Choose";
 import SectionFour from "./components/SectionFour/SectionFour";
 
 function App() {
-  return (
-    <>
-      <Header />
-      <Room_Choose />
-      <Section2 />
-      <SectionFour />
-    </>
-
+    return (
+        <>
+            <Header />
+            <Room_Choose />
+            <Section2 />
+            <SectionFour />
+        </>
+    );
+}
 export default App;
