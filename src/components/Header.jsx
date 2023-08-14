@@ -6,18 +6,18 @@ import headerMail from "../img/Mail.png";
 const Header = () => {
   return (
     <div>
-      <div className="bg-[#ffe29e] h-[471px] mt-[2rem] flex-col  text-center left-[40%] ">
-        <div className="flex absolute justify-center w-[100%]  ">
-          <img className="flex w-[55%] " src={bgeclip} />
+      <div className="bg-[#ffdb8f] h-[471px] mt-[2rem] flex-col  text-center  flex relative z-[-2]">
+        <div className="flex absolute justify-center  h-[100%]  w-[100%] z-[-1]">
+          <img className="flex" src={bgeclip} />
         </div>
         <h2 className="font-['Cinzel'] text-[20px] text-[#b25e2c] pt-[7rem]">
           GROUP 8
         </h2>
         <h1 className="font-['Cinzel'] text-[71px] text-[#7c4521] font-[700]">
-          HOTEL UIKIT
+          HOTEL UI KIT
         </h1>
-        <div className="flex justify-center gap-[2rem]  ">
-          <div className=" flex border-2 border-black w-[280px]">
+        <div className="flex justify-center gap-[2rem] pt-[2rem] ">
+          <div className=" flex  w-[280px]">
             <div className="bg-[#e69859] w-[70px] h-[70px] flex justify-center items-center">
               <img className="w-[20px] h-[20px]" src={dribbnle} />
             </div>
@@ -25,7 +25,7 @@ const Header = () => {
               Dribble
             </p>
           </div>
-          <div className=" flex border-2 border-black w-[280px]">
+          <div className=" flex  w-[280px]">
             <div className="bg-[#e97171] w-[70px] h-[70px] flex justify-center items-center">
               <img className="w-[20px] h-[20px]" src={behance} />
             </div>
@@ -33,7 +33,7 @@ const Header = () => {
               Dehance.net
             </p>
           </div>
-          <div className=" flex border-2 border-black w-[280px]">
+          <div className=" flex  w-[280px]">
             <div className="bg-[#b76b4e] w-[70px] h-[70px] flex justify-center items-center">
               <img className="w-[20px] h-[20px]" src={headerMail} />
             </div>
